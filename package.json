@@ -1,0 +1,30 @@
+{
+  "name": "ooptest",
+  "version": "1.0.0",
+  "description": "Program illustrates OOP with real life scenario",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidelisojeah/OOP.git"
+  },
+  "keywords": [
+    "oop",
+    "javascript"
+  ],
+  "author": "Fidelis Ojeah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fidelisojeah/OOP/issues"
+  },
+  "homepage": "https://github.com/fidelisojeah/OOP#readme",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
