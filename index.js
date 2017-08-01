@@ -15,7 +15,7 @@ class Electronics {
     return `${this.itemName} Was Manufactured by: ${this.itemManufacturer}`;
   }
   getModelYear() {
-    return `This is the ${this.modelYear} model of the device`;
+    return `This is the ${this.modelYear} model of the ${this.itemName}`;
   }
 }
 class Phone extends Electronics {
@@ -51,7 +51,7 @@ class Samsung extends Phone {
     super(`Samsung ${phoneModel}`, 'Samsung', modelYear, 'Android', batteryLife);
   }
   getItemType() {
-    return `${this.itemName} is a Samsung ${this.itemType}`;
+    return `The ${this.itemName} is a Samsung ${this.itemType}`;
   }
 }
 module.exports = {
